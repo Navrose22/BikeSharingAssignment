@@ -1,52 +1,90 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing Assignment
+> Created multi linear regression model to predict the demand of shared bikes so that the company can manipulate their business strategies to meet the consumer's expectations.
+> This repository contains the code and resources for a bike sharing assignment, where I have developed a multiple linear regression model to predict bike rental demand.
+
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Introduction](#Introduction)
+* [Data](#Data)
+* [Predictions](#Predictions)
+* [Conclusions](#Conclusions)
+* [Technologies Used](#Technologies Used)
+* [Acknowledgements](#Acknowledgements)
+* [Contact](#Contact)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Introduction
+* In this project, we aim to predict bike rental demand based on various factors such as weather conditions, time of day, and more using a multiple linear regression model. This README provides an overview of the project, instructions on how to use the code, and insights into the results.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+  
+
+## Data
+
+### Data Sources
+
+- Data set based on the data provided by the US company "BoomBikes" (Bike sharing company)
+
+### Data Understanding
+
+- This involves reading and understanding the data
+- Check for the null values if any
+
+### Data Visualisation
+
+- Visualises the data to check the linear relationship
+- Invloves plots of numerical as well as categorical variables
+
+### Data Preparation
+
+- Prepares data for multi linear regression
+- Checks for the outlinears and drop out those from the data set to make the most reliable model
+- Creates dummy variable out of the categorical variables
+
+### Traning and Testing data
+
+- Creates training and testing data from the data set
+- Rescaling the features to get the best outcome
+
+### Building model
+
+- Calculates RFE
+- Builds model to get the best fit
+- Residual analysis of the data helps in predicting the nature of the residuals (in this case they are normally distributed)
+   
+
+
+
+## Predictions
+- Predicts the model for the actual v/s predict variable
+- Calculates R^2 after getting a linear fit for the predicted model
+
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Significant variables to predict the demand are
+- temp, working day, saturday, windspeed and more..
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
+  
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Jupiter Notebook
+*  Libraries:
+  - Numpy
+  - Pandas
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - sklearn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by upgrad
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Navrose22] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
