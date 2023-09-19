@@ -9,7 +9,7 @@
 * [Data](#Data)
 * [Predictions](#Predictions)
 * [Conclusions](#Conclusions)
-* [Technologies Used](#Technologies Used)
+* [TechnologiesUsed](#TechnologiesUsed)
 * [Acknowledgements](#Acknowledgements)
 * [Contact](#Contact)
 
